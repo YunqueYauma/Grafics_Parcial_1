@@ -43,8 +43,8 @@ void main()
 {
 	
 	//Bàsicament separem els instants en que pugem dels que baixem
-    if(mod(time,2.)<=1.)lightDiffuse = vec4(mix(0.0,1.0,fract(time)));
-    else lightDiffuse = vec4(mix(0.0,1.0,1.-fract(time)));
+    if(mod(time,2.)<=1.)lightDiffuse = vec4(mix(0.0,0.8,fract(time)));
+    else lightDiffuse = vec4(mix(0.0,0.8,1.-fract(time)));
 	
     //Recordar que les variables que hem passat ja estan en eye space
     vec3 norm = normalize(N);//S'ha de normalitzar ara pq potser al interpolar ha canviat
