@@ -16,7 +16,7 @@ La part més difícil d'aquest exercici és el temps. En el sentit que l'exercic
   * La llum varia en el temps, però no seguint una funció sinusoidal, sinó una funció triangular.
   * La graella a treballar no representa la textura final de l'objecte, sinó que representa la propietat difusa de l'objecte.
   
-El fet que tot amb el que es demana treballar sigui un *pack* (només hem de calcular la il·luminació, però canviant diferents paràmetres ) impedeix debuggar fàcilment (actualment encara no he aconseguit tenir la 3ª columna completament blanca), comportant una pèrdua de temps important per a l'estudiant, el qual es pot trobar canviant segments de codi que eren correctes perquè no troba l'error.
+El fet que tot amb el que es demana treballar sigui un *pack* (només hem de calcular la il·luminació, però canviant diferents paràmetres ) impedeix debuggar fàcilment, comportant una pèrdua de temps important per a l'estudiant, el qual es pot trobar canviant segments de codi que eren correctes perquè no troba l'error.
 
 ### Exercici 3:
 Per a exercicis com aquest s'hauria de permetre l'ús d'estris d'escriptura als examens, ja que al estar treballant amb trigonometria, pot resultar útil fer-se un dibuix per confirmar que els càlculs que vols fer es representen correctament en les coordenades cartesianes, o per a veure quelcom que no s'ha tingut en compte.
